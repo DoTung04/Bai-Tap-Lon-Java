@@ -175,7 +175,7 @@ public class Gameplay  extends JPanel implements ActionListener, KeyListener
 		g.setFont(new Font("serif",Font.BOLD, 20));
 		g.drawString("Scores", 700,30);
 		g.drawString("Player 1:  "+player1Listener.getPlayerscore(), 670,60);
-		g.drawString("Player 2:  "+player1Listener.getPlayerscore(), 670,90);
+		g.drawString("Player 2:  "+player2Listener.getPlayerscore(), 670,90);
 		
 		g.drawString("Lives", 700,150);
 		g.drawString("Player 1:  "+player1Listener.getPlayerlives(), 670,180);
